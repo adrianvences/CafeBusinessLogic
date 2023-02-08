@@ -35,7 +35,8 @@ public class CafeUtil {
     String userName = System.console().readLine();
     constumers.add(userName);
     System.out.println("hello" + " " + userName);
-    System.out.println("There are " + constumers.size() + " people infront of you.");
+    int line_length =  constumers.size()-1; // made an int so i could -1
+    System.out.println("There are " + line_length + " people infront of you.");
     System.out.println(constumers);
   }
   
